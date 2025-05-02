@@ -1,15 +1,10 @@
 <?XML version="1.0"?>
 <scriptlet>
-  <registration
-    description="Safe rundll32 test"
-    progid="Example.Scriptlet"
-    version="1.0"
-    classid="{AAAA1111-1111-1111-1111-111111111111}">
-    <script language="JScript">
-      <![CDATA[
-        var shell = new ActiveXObject("WScript.Shell");
-        shell.Run("calc.exe");
-      ]]>
-    </script>
-  </registration>
+  <script language="JScript">
+    <![CDATA[
+      var shell = new ActiveXObject("WScript.Shell");
+      shell.Run("cmd.exe /c start microsoft-edge:https://www.google.com");
+    ]]>
+  </script>
 </scriptlet>
+

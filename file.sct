@@ -1,0 +1,15 @@
+<?XML version="1.0"?>
+<scriptlet>
+  <registration
+    description="Safe Test Script"
+    progid="Test.Scriptlet"
+    version="1.00"
+    classid="{F0000000-0000-0000-0000-000000000000}" >
+    <script language="JScript">
+      <![CDATA[
+        var shell = new ActiveXObject("WScript.Shell");
+        shell.Popup("Simulated LOLBAS rundll32 + mshtml test executed.", 5, "Atomic Test", 64);
+      ]]>
+    </script>
+  </registration>
+</scriptlet>
